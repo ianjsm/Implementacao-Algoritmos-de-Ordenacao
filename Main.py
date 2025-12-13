@@ -19,7 +19,7 @@ def bubble_sort(lista):
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
                 trocas += 1
 
-    return comparacoes, trocas
+    return comparacoes, trocas 
 
 
 def selection_sort(lista):
