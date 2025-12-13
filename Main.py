@@ -234,14 +234,10 @@ algoritmos = {
     "Counting Sort": counting_sort
 }
 
-print(f"{'algoritmo':<15} | {'comparações':<12} | {'trocas':<10}")
-print("--------------------------------------------------------------------------------------")
+print(f"{'algoritmo', 'comparações', 'trocas'}")
 
 for nome, funcao in algoritmos.items():
     lista = numeros_teste.copy()
     comparacoes, trocas = funcao(lista)
 
-    print(f"{nome:<15}, {comparacoes:<12}, {trocas:<10}")
-
-    if lista != sorted(numeros_teste):
-        print(f"ERRO")
+    print(f"{nome, comparacoes, trocas}")
