@@ -240,4 +240,4 @@ for nome, funcao in algoritmos.items():
     lista = numeros_teste.copy()
     comparacoes, trocas = funcao(lista)
 
-    print(f"{nome, comparacoes, trocas}")
+    print(f"{nome, comparacoes, trocas}") 
